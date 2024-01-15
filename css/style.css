@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+/* Main Degine */
+main{
+
+}
+main section{
+    margin-top: 100px;
+}
+.Your-Travel{
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    max-width: 1170px;
+    min-height: 500px;
+    border-radius: 16px;
+    padding: 106px 185px;
+    margin-top: 146px;
+    margin: auto;
+}
+.Your-Travel::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    top: 0;
+    left: 0;
+}
+.Your-Travel-Text{
+position: relative;
+color: #fff;
+text-align: center;
+margin-bottom: 64px;
+}
+.Your-Travel-Text h1{
+font-size: 4rem;
+margin-bottom: 24px;
+}
+.Your-Travel-Text p{
+}
+.Drop-Down{
+    position: relative;
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    min-height: 84px;
+    max-width: 800px;
+}
+.Drop-Down input{
+    border: none;
+    padding: 16px;
+    border-radius: 8px;
+    outline: none;
+    max-width: 174px;
+    min-height: 52px;
+}
+ .Where-Go{
+    margin: auto;
+} 
+.Find-Now{
+    
+    background: #FF5400;
+}
+.Find-Now::placeholder{
+    color: #fff;
+    text-align: center;
+}
+
+/* Tour Container */
+.Tour-Container{
+max-width: 1170px;
+margin: 100px auto;
+display: flex;
+}
+.Tour-Container-Text{
+    width: 50%;
+    padding-right: 50px;
+}
+.Tour-Container-Text h1{
+color: #131318;
+font-weight: 800;
+font-size: 2.5rem;
+margin-bottom: 24px;
+}
+.Tour-Container-Text p{
+margin-bottom: 24px;
+}
+.Tour-Container-Text li{
+margin-bottom: 15px;
+}
+.Tour-Container-Text p:nth-last-child(2){
+margin-bottom: 46px;
+margin-top: 26px;
+}
+.Tour-Container-Text button{
+border: none;
+padding: 14px 30px;
+border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-size: 20px;
+font-weight: 800;
+}
+.Tour-Container-Images{
+    width: 50%;
+}
+.Tour-Container-Images img{
+    max-width: 90vw;
+   
+}
+/*Your Destination Part Degine */
+.Your-Destination{
+
+max-width: 1170px;
+
+margin: 100px auto;
+}
+.Your-Destination h2{
+
+text-align: center;
+
+font-size: 2.5rem;
+
+font-weight: 800;
+
+margin-bottom: 24px;
+}
+.Your-Destination p{
+
+color: rgba(19, 19, 24, 0.70);
+
+text-align: center;
+
+font-size: 1rem;
+
+line-height: 26px; /* 162.5% */
+
+padding: 0px 250px;
+}
+.Your-Destination-Image{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 48px;
+}
+.Maldivs{}
+
+@media screen and (max-width:600px) {
+    main{
+        padding: 24px;
+    }
+    .Your-Travel{
+        padding: 75px 32px;
+    }
+    .Drop-Down{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .Tour-Container,.Your-Destination-Image{
+        flex-direction: column;
+        gap: 16px;
+    }
+    .Tour-Container-Text, .Tour-Container-Images{
+        width: 100%;
+    }
+    .Tour-Container-Text{
+        padding: 0;
+        margin-bottom: 24px;
+    }
+    .Your-Destination p{
+        padding: 0%;
+    }
+   .Maldivs{
+    width: 90vw;
+    height: 176px;
+   }
+   .Maldivs img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+   }
+}
