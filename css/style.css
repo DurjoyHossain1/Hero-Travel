@@ -5,6 +5,11 @@
   box-sizing: border-box;
   font-family: "Mulish", sans-serif;
 }
+
+/* Header Degine */
+
+/* header Degin /*
+
 /* Main Degine */
 main {
 }
@@ -12,7 +17,7 @@ main section {
   margin-top: 100px;
 }
 .Your-Travel {
-  background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+ background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -230,33 +235,30 @@ main section {
   border: 1px solid #ff5400;
   padding: 40px;
 }
-.Left-input h2{
+.Left-input h2 {
+  color: #131318;
 
-color: #131318;
+  font-family: Mulish;
 
-font-family: Mulish;
+  font-size: 24px;
 
-font-size: 24px;
+  font-style: normal;
 
-font-style: normal;
+  font-weight: 800;
 
-font-weight: 800;
-
-line-height: normal;
+  line-height: normal;
 }
-.Left-input p{
+.Left-input p {
+  color: #5a5a5d;
 
-color: #5A5A5D;
+  line-height: 26px; /* 162.5% */
 
-line-height: 26px; /* 162.5% */
+  margin-top: 16px;
 
-margin-top: 16px;
-
-margin-bottom: 24px;
+  margin-bottom: 24px;
 }
-.Left-input hr{
-    
-background: rgba(19, 19, 24, 0.10);
+.Left-input hr {
+  background: rgba(19, 19, 24, 0.1);
 }
 .Left-input form input {
   display: block;
@@ -269,23 +271,76 @@ background: rgba(19, 19, 24, 0.10);
   padding: 20px;
   background: rgba(19, 19, 24, 0.05);
 }
-.Sebscribe{
-    
-background: #FF5400 !important;
-    
-color: #FFF;
-    
-padding: 0px !important;
-    
-font-size: 20px;
-    
-font-weight: 800;
-    
-height: 60px !important;
+.Sebscribe {
+  background: #ff5400 !important;
+
+  color: #fff;
+
+  padding: 0px !important;
+
+  font-size: 20px;
+
+  font-weight: 800;
+
+  height: 60px !important;
 }
 .Right-image {
   width: 672px;
   height: 422px;
+}
+/* footer Degine */
+footer {
+  max-width: 1440px;
+  margin: auto;
+  padding: 110px 284px; 
+  background: rgba(19, 19, 24, 0.05);
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+.footer-logo a {
+  color: #131318;
+
+  font-size: 2rem;
+
+  font-weight: 800;
+
+  text-decoration: none;
+}
+.footer-logo a span {
+  color: #ff5400;
+}
+.footer-Container > p {
+  color: #5a5a5d;
+  text-align: center;
+  line-height: 26px;
+}
+.Footer-Icon {
+}
+.Footer-Icon ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 32px 0 50px 0;
+  list-style: none;
+}
+.Footer-Icon ul li a{
+  color: #131318;
+  font-size: 1.4rem;
+}
+.footer-Container hr {
+}
+.footer-Container h5 {
+  text-align: center;
+  color: #131318;
+  font-size: 1rem;
+  margin-top: 50px;
+  padding-bottom: 20px;
 }
 @media screen and (max-width: 600px) {
   main {
@@ -314,7 +369,7 @@ height: 60px !important;
     padding: 0;
     margin-bottom: 24px;
   }
-  .Your-Destination p {
+  .Your-Destination p , footer{
     padding: 0%;
   }
   .Maldivs {
@@ -332,15 +387,16 @@ height: 60px !important;
   }
   .Left-input,
   .Right-image,
-  .Right-image img{
+  .Right-image img {
     width: 100%;
   }
-  .Left-input form input{
-   width: 100%;
-   height: 100%;
+  .Left-input form input {
+    width: 100%;
+    height: 100%;
   }
-  .Left-input form{
+  .Left-input form {
     max-width: 445px;
     min-height: 52px;
   }
+
 }
