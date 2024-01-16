@@ -7,81 +7,51 @@
 }
 
 /* Header Degine */
-header{
+header {
+  max-width: 1170px;
 
-max-width: 1170px;
+  margin: 50px auto;
 
-margin: 50px auto;
-
-display: flex;
-
-align-items: center;
-
-justify-content: space-between;
-}
-.heder-logos{
-  
-display: flex;
-  
-align-items: center;
-  
-gap: 15px;
-}
-.heder-logos img{
-
-}
-.heder-logos h3{
-
-/* color: #FF5400; */
-
-font-family: Mulish;
-
-font-size: 36px;
-
-font-style: normal;
-
-font-weight: 800;
-
-line-height: normal;
-
-font-size: 2.25rem;
-}
-.heder-logos h3 span{
-  
-color: #FF5400;
-  
-/* font-family: Mulish; */
-  
-/* font-size: 36px; */
-  
-/* font-style: normal; */
-  
-/* font-weight: 800; */
-  
-/* line-height: normal; */
-}
-header > ul{
   display: flex;
-  gap:20px;
-}
-header > ul > li{
 
-list-style: none;
+  align-items: center;
+
+  justify-content: space-between;
 }
-header > ul > li > a{
-  
-text-decoration: none;
-  
-color: #424247;
-  
-font-size: 1.2rem;
+.heder-logos {
+  display: flex;
+
+  align-items: center;
+
+  gap: 15px;
 }
-.Active{color: #FF5400;font-weight: 700;}
+
+.heder-logos h3 {
+  font-weight: 800;
+  font-size: 2.25rem;
+}
+.heder-logos h3 span {
+  color: #ff5400;
+}
+header > ul {
+  display: flex;
+  gap: 20px;
+}
+header > ul > li {
+  list-style: none;
+}
+header > ul > li > a {
+  text-decoration: none;
+  color: #424247;
+  font-size: 1.2rem;
+}
+.Active {
+  color: #ff5400;
+  font-weight: 700;
+}
 /* header Degin /*
 
 /* Main Degine */
-main {
-}
 main section {
   margin-top: 100px;
 }
@@ -122,78 +92,53 @@ main section {
   font-size: 4rem;
   margin-bottom: 24px;
 }
-.Your-Travel-Text p {
-}
-/* .Drop-Down {
-  position: relative;
-  display: inline-flex;
-  padding: 16px;
-  align-items: flex-start;
-  gap: 24px;
+.banner-input {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.3);
-  min-height: 84px;
-  max-width: 800px;
-}
-.Drop-Down input {
-  border: none;
-  padding: 16px;
-  border-radius: 8px;
-  outline: none;
-  max-width: 174px;
-  min-height: 52px;
-}
-.Where-Go {
-  margin: auto;
-}
-.Find-Now {
-  background: #ff5400;
-}
-.Find-Now::placeholder {
-  color: #fff;
-  text-align: center;
-} */
-.banner-input{
-  border-radius: 8px;
-    background: rgba(255, 255, 255, 0.30);
-    position: relative;
-}
-.banner-input form{display: flex;gap: 24px;padding: 16px;}
-.input-two{
-  
-position: relative;
-}
-.banner-input form input{
-
-border: none;
-
-border-radius: 8px;
-
-font-size: 1rem;
-
-width: 174px;
-
-height: 52px;
-
-padding: 16px;
-
-outline: none;
-}
-.input-two span{
-
-position: absolute;
-
-top: 18px;
-
-left: 145px;
-
-font-size: 1rem;
-}
-.input-three{
   position: relative;
 }
-.input-three input ,  .input-three input::placeholder{color: #fff;background: #FF5400;text-align: center;}
-.input-three span{
+.banner-input form {
+  display: flex;
+  gap: 24px;
+  padding: 16px;
+}
+.input-two {
+  position: relative;
+}
+.banner-input form input {
+  border: none;
+
+  border-radius: 8px;
+
+  font-size: 1rem;
+
+  width: 174px;
+
+  height: 52px;
+
+  padding: 16px;
+
+  outline: none;
+}
+.input-two span {
+  position: absolute;
+
+  top: 18px;
+
+  left: 145px;
+
+  font-size: 1rem;
+}
+.input-three {
+  position: relative;
+}
+.input-three input,
+.input-three input::placeholder {
+  color: #fff;
+  background: #ff5400;
+  text-align: center;
+}
+.input-three span {
   position: absolute;
   left: 20px;
   top: 16px;
@@ -263,7 +208,7 @@ font-size: 1rem;
 
   font-size: 1rem;
 
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
 
   padding: 0px 250px;
 }
@@ -274,10 +219,10 @@ font-size: 1rem;
   flex-wrap: wrap;
   margin-top: 48px;
 }
-.Maldivs{
+.Maldivs {
   position: relative;
 }
-.Maldivs h3{
+.Maldivs h3 {
   position: absolute;
   z-index: 1;
   top: 50%;
@@ -345,167 +290,140 @@ font-size: 1rem;
   background: rgba(233, 68, 68, 0.05);
 }
 /* Discounts Section Degine */
-.Discounts{
+.Discounts {
   background-image: url(../Images/Group\ 39.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   max-width: 1170px;
-  /* height: 500px; */
+
   margin: auto;
   padding: 56px;
   margin-bottom: 20px;
 }
-.Discounts2{
+.Discounts2 {
   background-image: url(../Images/Group\ 40.png);
 }
-.Book-Now{
-  
-border-radius: 16px;
-  
-border: 2px solid #FFF;
-  
-background: rgba(255, 255, 255, 0.80);
-  
-backdrop-filter: blur(2.5px);
-  
-max-width: 579px;
-  
-main-height: 389px;
-  
-margin-left: auto;
-  
-padding: 50px 50px;
-}
-.Book-Now-Two{
+.Book-Now {
+  border-radius: 16px;
 
-margin-right: auto;
+  border: 2px solid #fff;
 
-margin-left: 0;
-}
-.Book-Now-Three{
-  
-margin-left: auto;
-}
-.info{
+  background: rgba(255, 255, 255, 0.8);
 
-display: flex;
+  backdrop-filter: blur(2.5px);
 
-gap: 32px;
-}
-.date,.location,.max{
+  max-width: 579px;
 
-display: flex;
+  main-height: 389px;
 
-gap: 10px;
+  margin-left: auto;
+
+  padding: 50px 50px;
 }
-.Book-Now-Text{
-  
+.Book-Now-Two {
+  margin-right: auto;
+
+  margin-left: 0;
 }
-.Book-Now-Text h2{
-  
-margin-top: 26px;
+.Book-Now-Three {
+  margin-left: auto;
 }
-.Book-Now-Text p{
-  
-margin-top: 16px;
+.info {
+  display: flex;
+
+  gap: 32px;
 }
-.Book-Now-Text h3{
-  
-margin-top: 16px;
-  
-color: rgba(255, 84, 0, 1);
+.date,
+.location,
+.max {
+  display: flex;
+
+  gap: 10px;
 }
-.Book-Now-Text button{
+/* .Book-Now-Text{
   
-margin-top: 24px;
-  
-border-radius: 8px;
-  
-background: #FF5400;
-  
-border: navajowhite;
-  
-padding: 12px 18px;
-  
-color: #FFF;
-  
-text-align: center;
-  
-font-family: Mulish;
-  
-font-size: 20px;
-  
-font-style: normal;
-  
-font-weight: 800;
-  
-line-height: normal;
+} */
+.Book-Now-Text h2 {
+  margin-top: 26px;
 }
-.see-all{
-  
-display: flex;
-  
-justify-content: center;
-  
-margin: 62px auto 0 auto;
+.Book-Now-Text p {
+  margin-top: 16px;
+}
+.Book-Now-Text h3 {
+  margin-top: 16px;
+
+  color: rgba(255, 84, 0, 1);
+}
+.Book-Now-Text button {
+  margin-top: 24px;
+  border-radius: 8px;
+  background: #ff5400;
+  border: navajowhite;
+  padding: 12px 18px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+}
+.see-all {
+  display: flex;
+  justify-content: center;
+  margin: 62px auto 0 auto;
 }
 /* Perfect-Place Section */
-.Perfect-Place{
+.Perfect-Place {
+  max-width: 1170px;
 
-max-width: 1170px;
-
-margin: 100px auto 0;
+  margin: 100px auto 0;
 }
-.Perfect-Cotainer{
+.Perfect-Cotainer {
+  display: flex;
 
-display: flex;
-
-justify-content: space-between;
+  justify-content: space-between;
 }
-.perfect-left{
-  
-padding-right: 114px;
+.perfect-left {
+  padding-right: 114px;
 }
-.perfect-left h1{
+.perfect-left h1 {
+  color: #131318;
 
-color: #131318;
+  font-weight: 800;
 
-font-weight: 800;
+  line-height: 60px;
 
-line-height: 60px; /* 150% */
-
-font-size: 2.5rem;
+  font-size: 2.5rem;
 }
-.perfect-left p{
+.perfect-left p {
+  color: #5a5a5d;
 
-color: #5A5A5D;
+  font-style: normal;
 
-font-style: normal;
+  line-height: 26px;
 
-line-height: 26px; /* 162.5% */
+  margin-bottom: 20px;
 
-margin-bottom: 20px;
-
-margin-top: 15px;
+  margin-top: 15px;
 }
-.perfect-left ul{
 
-}
-.perfect-left li{
-
-margin-bottom: 16px;
-}
-.perfect-left button{
-  
+.perfect-left li {
+  margin-bottom: 16px;
 }
 .perfect-right {
+  width: 100%;
 
-width: 100%;
+  position: relative;
 }
-.perfect-right video{
-  
-width: 100%;
+.perfect-right video {
+  width: 100%;
+}
+.perfect-right h3 {
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 1.2rem;
 }
 /* Newsletter Section Degine */
 .Newsletter {
@@ -526,21 +444,13 @@ width: 100%;
 }
 .Left-input h2 {
   color: #131318;
-
-  font-family: Mulish;
-
   font-size: 24px;
-
-  font-style: normal;
-
   font-weight: 800;
-
-  line-height: normal;
 }
 .Left-input p {
   color: #5a5a5d;
 
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
 
   margin-top: 16px;
 
@@ -576,6 +486,43 @@ width: 100%;
 .Right-image {
   width: 672px;
   height: 422px;
+  position: relative;
+}
+.rigght-box{
+
+position: absolute;
+
+
+
+right: -2%;
+
+top: 74%;
+
+transform: rotate(-22deg) translate(0%, -50%);
+
+border-radius: 16px;
+
+background: #FF5400;
+
+padding: 20px 30px;
+
+text-align: center;
+}
+.rigght-box h3{
+  
+color: #FFF;
+  
+font-size: 1.5rem;
+  
+font-weight: 400;
+}
+.rigght-box h1{
+
+color: #FFF;
+
+font-size: 2rem;
+
+font-weight: 800;
 }
 /* footer Degine */
 footer {
@@ -609,8 +556,6 @@ footer {
   text-align: center;
   line-height: 26px;
 }
-.Footer-Icon {
-}
 .Footer-Icon ul {
   display: flex;
   align-items: center;
@@ -619,11 +564,9 @@ footer {
   margin: 32px 0 50px 0;
   list-style: none;
 }
-.Footer-Icon ul li a{
+.Footer-Icon ul li a {
   color: #131318;
   font-size: 1.4rem;
-}
-.footer-Container hr {
 }
 .footer-Container h5 {
   text-align: center;
@@ -648,10 +591,10 @@ footer {
   .Your-Destination-Image,
   .Card-Container,
   .NewsLetter-Container,
-  .banner-input form ,
+  .banner-input form,
   .info,
   .Perfect-Cotainer,
-  header{
+  header {
     flex-direction: column;
     gap: 24px;
   }
@@ -659,12 +602,15 @@ footer {
   .Tour-Container-Images {
     width: 100%;
   }
-  .Tour-Container-Text,.perfect-left {
+  .Tour-Container-Text,
+  .perfect-left {
     padding: 0;
     margin-bottom: 24px;
   }
-  .Your-Destination p , footer{
+  .Your-Destination p,
+  footer {
     padding: 7%;
+    margin-top: -100px;
   }
   .Maldivs {
     width: 90vw;
@@ -692,25 +638,21 @@ footer {
     max-width: 445px;
     min-height: 52px;
   }
-  .banner-input form{
+  .banner-input form {
     max-width: 209px;
     min-height: 52px;
   }
-  .banner-input form input{
+  .banner-input form input {
     width: 100%;
   }
   .Discounts {
     padding: 8px;
   }
-  header > ul{
+  header > ul {
     display: none;
   }
+  .rigght-box {
+   display: none;
 }
 
-
-
-
-
-
-
-
+}
