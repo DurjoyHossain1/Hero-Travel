@@ -492,13 +492,11 @@ main section {
 
 position: absolute;
 
+right: 1%;
 
+top: 60%;
 
-right: -2%;
-
-top: 74%;
-
-transform: rotate(-22deg) translate(0%, -50%);
+transform: rotate(-22deg);
 
 border-radius: 16px;
 
@@ -577,7 +575,7 @@ footer {
 }
 @media screen and (max-width: 600px) {
   main {
-    padding: 24px;
+    padding: 12px;
   }
   .Your-Travel {
     padding: 75px 32px;
@@ -652,7 +650,10 @@ footer {
     display: none;
   }
   .rigght-box {
-   display: none;
+    display: none;
+}    
+.Your-Destination h2{
+  margin-bottom: 88px;
 }
 
 }
