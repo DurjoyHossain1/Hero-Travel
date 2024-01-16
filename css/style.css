@@ -7,7 +7,76 @@
 }
 
 /* Header Degine */
+header{
 
+max-width: 1170px;
+
+margin: 50px auto;
+
+display: flex;
+
+align-items: center;
+
+justify-content: space-between;
+}
+.heder-logos{
+  
+display: flex;
+  
+align-items: center;
+  
+gap: 15px;
+}
+.heder-logos img{
+
+}
+.heder-logos h3{
+
+/* color: #FF5400; */
+
+font-family: Mulish;
+
+font-size: 36px;
+
+font-style: normal;
+
+font-weight: 800;
+
+line-height: normal;
+
+font-size: 2.25rem;
+}
+.heder-logos h3 span{
+  
+color: #FF5400;
+  
+/* font-family: Mulish; */
+  
+/* font-size: 36px; */
+  
+/* font-style: normal; */
+  
+/* font-weight: 800; */
+  
+/* line-height: normal; */
+}
+header > ul{
+  display: flex;
+  gap:20px;
+}
+header > ul > li{
+
+list-style: none;
+}
+header > ul > li > a{
+  
+text-decoration: none;
+  
+color: #424247;
+  
+font-size: 1.2rem;
+}
+.Active{color: #FF5400;font-weight: 700;}
 /* header Degin /*
 
 /* Main Degine */
@@ -156,7 +225,7 @@ font-size: 1rem;
   margin-bottom: 46px;
   margin-top: 26px;
 }
-.Tour-Container-Text button {
+.Read-More {
   border: none;
   padding: 14px 30px;
   border-radius: 8px;
@@ -287,6 +356,9 @@ font-size: 1rem;
   padding: 56px;
   margin-bottom: 20px;
 }
+.Discounts2{
+  background-image: url(../Images/Group\ 40.png);
+}
 .Book-Now{
   
 border-radius: 16px;
@@ -305,6 +377,16 @@ margin-left: auto;
   
 padding: 50px 50px;
 }
+.Book-Now-Two{
+
+margin-right: auto;
+
+margin-left: 0;
+}
+.Book-Now-Three{
+  
+margin-left: auto;
+}
 .info{
 
 display: flex;
@@ -320,10 +402,115 @@ gap: 10px;
 .Book-Now-Text{
   
 }
+.Book-Now-Text h2{
+  
+margin-top: 26px;
+}
+.Book-Now-Text p{
+  
+margin-top: 16px;
+}
+.Book-Now-Text h3{
+  
+margin-top: 16px;
+  
+color: rgba(255, 84, 0, 1);
+}
+.Book-Now-Text button{
+  
+margin-top: 24px;
+  
+border-radius: 8px;
+  
+background: #FF5400;
+  
+border: navajowhite;
+  
+padding: 12px 18px;
+  
+color: #FFF;
+  
+text-align: center;
+  
+font-family: Mulish;
+  
+font-size: 20px;
+  
+font-style: normal;
+  
+font-weight: 800;
+  
+line-height: normal;
+}
+.see-all{
+  
+display: flex;
+  
+justify-content: center;
+  
+margin: 62px auto 0 auto;
+}
+/* Perfect-Place Section */
+.Perfect-Place{
+
+max-width: 1170px;
+
+margin: 100px auto 0;
+}
+.Perfect-Cotainer{
+
+display: flex;
+
+justify-content: space-between;
+}
+.perfect-left{
+  
+padding-right: 114px;
+}
+.perfect-left h1{
+
+color: #131318;
+
+font-weight: 800;
+
+line-height: 60px; /* 150% */
+
+font-size: 2.5rem;
+}
+.perfect-left p{
+
+color: #5A5A5D;
+
+font-style: normal;
+
+line-height: 26px; /* 162.5% */
+
+margin-bottom: 20px;
+
+margin-top: 15px;
+}
+.perfect-left ul{
+
+}
+.perfect-left li{
+
+margin-bottom: 16px;
+}
+.perfect-left button{
+  
+}
+.perfect-right {
+
+width: 100%;
+}
+.perfect-right video{
+  
+width: 100%;
+}
 /* Newsletter Section Degine */
 .Newsletter {
   max-width: 1170px;
-  margin: 100px auto;
+  margin: 100px auto 0px auto;
 }
 .NewsLetter-Container {
   display: flex;
@@ -394,8 +581,9 @@ gap: 10px;
 footer {
   max-width: 1440px;
   margin: auto;
-  padding: 110px 284px; 
+  padding: 110px 284px;
   background: rgba(19, 19, 24, 0.05);
+  margin-top: 100px;
 }
 .footer-logo {
   display: flex;
@@ -461,20 +649,22 @@ footer {
   .Card-Container,
   .NewsLetter-Container,
   .banner-input form ,
-  .info{
+  .info,
+  .Perfect-Cotainer,
+  header{
     flex-direction: column;
-    gap: 16px;
+    gap: 24px;
   }
   .Tour-Container-Text,
   .Tour-Container-Images {
     width: 100%;
   }
-  .Tour-Container-Text {
+  .Tour-Container-Text,.perfect-left {
     padding: 0;
     margin-bottom: 24px;
   }
   .Your-Destination p , footer{
-    padding: 0%;
+    padding: 7%;
   }
   .Maldivs {
     width: 90vw;
@@ -509,5 +699,18 @@ footer {
   .banner-input form input{
     width: 100%;
   }
-  
+  .Discounts {
+    padding: 8px;
+  }
+  header > ul{
+    display: none;
+  }
 }
+
+
+
+
+
+
+
+
